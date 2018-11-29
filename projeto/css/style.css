@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+    height: auto;
+
+}
+@font-face{
+    font-family: "Sourse Sans Pro/";
+     src: url('../fontes/source-sans-pro/SourceSansPro-Regular.otf');
+
+}
+@font-face{
+    font-family: "Sourse Sans Pro/";
+     src: url('../fontes/source-sans-pro/SourceSansPro-Bold.otf');
+    font-weight: bold;
+
+}
+
+.body{
+    font-family: "Source Sans Pro";
+
+}
+
+
+.cabecalho{
+    background: white;
+    padding: 15px;
+
+}
+
+.logo--branco {
+    background-image: url("../img/logoooobranco2.png");
+    
+
+
+}
+.menu_li{
+    float: left;
+    display: block;
+    padding: 15px;
+    margin-right: 60px;
+}
+
+.red{
+    float: left;
+    background-attachment: fixed;
+    width: 100%;
+    background-image: url(../img/cabecalho-pagina-bg.jpg);
+}
+.menu-principal__btn{
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-indent: -9999px;
+    background-color: #fff;
+    background-image: url("../img/menuprincipal-btn-bg.png");
+    background-repeat: no-repeat;
+    background-position: 5px;
+    border-color: #c4c4c4;
+    border-style:solid;
+    border-radius: 5px;
+    cursor: pointer;
+
+    position: absolute;
+    top: 15px;
+    right: 15;
+
+}
+
+.menu-principal__bt--fechar{
+    background-position: 5px;
+
+}
+
+.menu-principal__lista{
+    padding: 0;
+    list-style: none;
+    margin-left: 250px;
+    background-color: #f00;
+}    
+
+
+.menu-principal__item{
+    text-decoration: none;
+    font-weight: bold;
+    color: #343434;
+    display: block;
+    font-size: 18px;
+}
+
+.menu-principal__item--atual{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    font-size: 18px;
+}
+
+.seção{
+    clear: both;
+    margin-bottom: 40px;
+    padding-top: 40px;
+}
+
+/* rodapé*/
+
+.rodape__linha-1{
+    color:#fff;
+    
+}
+
+.logo_home{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rodape .logo{
+    margin-bottom: 15px;
+}
+.rodape__linha-1{
+    background-color: #272525;
+    background-image: url("../img/rodaape.jpg");
+    background-size: cover;
+    padding: 15px;
+
+
+}
+
+.ropade__linha-2{
+    background-color: #000;
+    text-align: center;
+    padding: 15px;
+    
+}
+.rodape__coluna{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.rodape__titulo{
+border-bottom: solid 1px #fff; 
+padding: 0 10px 10px 10px; 
+font-size: 18px;
+}
+
+
+
+.rodape__lista-links{
+    padding: 0;
+    list-style: none;
+
+}
+.rodape__lista-links__item{
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.rodape__lista-links__item::before{
+    content: ' 🏘️';
+    margin-right: 5px;
+    color: #f44242;
+    text-decoration: none;
+
+
+}
+
+.pagina-conteudo{
+   padding: 15px;
+   padding-top: 25px;
+   padding-bottom: 20px;
+
+
+}
+
+.pagina-conteudo p{
+    color:#a3a3a3a3; 
+    line-height: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

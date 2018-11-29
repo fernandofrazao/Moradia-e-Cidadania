@@ -1,0 +1,85 @@
+.contato{
+    margin: 0px;
+    padding: 0px;
+
+}
+.form{
+    font-size: 16px;
+    background-color: #ccc;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 10px 10px 10px 10px;
+
+}
+.h2{
+    color: #000;
+    text-align: center;
+
+}
+
+.textarea, input{
+    padding: 10px;
+    width: 470px;
+
+}
+
+.e-mail{
+    padding: 10px 5px;
+    width: 470px;
+
+}
+.enviar input{
+    background: rgb(19, 73, 99);
+    height: 35px;
+    width: 470px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid;
+    color: #fff;
+    cursor: pointer;
+    width: 99%;
+}
+
+.enviar input:hover{
+    background: rgb(45, 175, 41);
+}
+.mensagem input{
+    width: 470px;
+    height: 120px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.mapa{
+    background: #f00;
+    padding-bottom: 100%;
+    height: 0;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.mapa iframe{
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+
+
+}
+
+.titutolo{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    padding-top: 20px;
+    clear: both;
+}
+.subititulo{
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding-top: 10px;
+}
